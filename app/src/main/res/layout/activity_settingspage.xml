@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backeka2"
+    tools:context=".Settingspage">
+
+    <TextView
+        android:layout_width="700px"
+        android:padding="49px"
+        android:layout_marginLeft="130px"
+        android:layout_height="200px"
+        android:textColor="@color/white"
+        android:text="Set the max score"
+        android:textSize="60px"
+        android:layout_marginTop="200px"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="800px"
+        android:layout_height="86dp"
+        android:layout_marginLeft="140px"
+        android:layout_marginTop="30px"
+        android:background="@drawable/whitebackround"
+        android:padding="40px">
+
+        <EditText
+            android:id="@+id/entermax"
+            android:hint="101"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="80px"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/maxbutton"
+        android:layout_width="150dp"
+        android:layout_marginTop="50px"
+        android:layout_height="122px"
+        android:layout_gravity="center"
+        android:text="Set" />
+
+
+</LinearLayout>
